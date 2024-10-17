@@ -32,6 +32,7 @@ P_fit = PTaverage*T;
 St = sum( (P - mean(P)).^2 );
 Sr = sum( (P - P_fit).^2 );
 r2 = (St - Sr) / St;
+%calculates coefficient of determination
 
 %% Fit value(s) of pressure for given temperature(s)
 p_fit = PTaverage*T_fit;
