@@ -19,6 +19,7 @@ P = Pvec;
 % (Prof. Atkins, 10/8/24)
 % slope_P_vs_T = (T*P') / (T*T');
 PTaverage = sum(P./T)/length(P);
+%avergaes done here to find a trend 
 
 %% Estimate gas constant, R
 V = 10; % m^3
